@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import SwipeButtons from "./components/SwipeButtons";
+import TinderCards from "./components/TinderCards";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <h1>This is my app.</h1>
-      <Footer />
+      <TinderCards />
+      <SwipeButtons />
     </div>
   );
 };
